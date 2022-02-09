@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi student", "Ahh yes, how can I help", "Ey watsupp", "Hi DSCE stud", "Hello my friend", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Danish, a short form for Darshan, Nikhil and Shashank, My creators", "My name is Danish", "You can call me DNS for short", "I am Danish, Meaning Darshan, Nikhil, Shashank", "Danish is my name"]
+      },
+      {"tag": "creator",
+        "patterns": ["Who founded you", "Who created you", "Who is your Parents", "Who formed you", "Your Parents", "How were you born", "Who made you"],
+        "responses": ["My creators, Darshan, Nikhil and Shashank", "3 idots made me. Darshan, Nikhil and Shashank but thanks to them", "I am Danish, Meaning Darshan, Nikhil, Shashank, my creators and parents"]
+        },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about DSCE", "I can give you interesting facts about DSCE"]
+      },
+     {"tag": "dsce",
+      "patterns": ["DSCE", "What can you tell me about DSCE", "DSCE", "Tell me about DSCE", "What about DSCE", "What do you know about DSCE", "Tell me more about DSCE", "What can you tell me about DSCE", "Tell me about DSCE", "What about DSCE", "What do you know about DSCE", "Tell me more about DSCE"],
+      "responses": ["Lovely Engineering College","A college of my creators","A college in Bengaluru","Let me be frank, my creators make fun of the college sometimes","A very beautiful college with lush green environment","Dayananda Sagar College of Engineering, the production house of many talented Engineers","Ask my creators","Nice place to study","Nothing much to say, just study Engineering there"]
+      },
+      {"tag": "dsce_facts",
+       "patterns": ["DSCE Facts", "DSCE Facts", "Give me some facts about DSCE", "Give me some facts about DSCE", "DSCE Facts", "DSCE interesting facts", "DSCE facts", "DSCE interesting facts", "Tell me something interesting"],
+       "responses": [
+         "Got to know that my creators are from DSCE","DSCE has been recently rated A+ accredition. One of the youngest college to get it","It is more like a family than college to many","Great faculties, that too better in CSE. LOL my creators told this.","A place with fun, entertainment, studies, etc, etc, etc..","DSCE is among the top colleges in Bengaluru","It is an Autonomous College","It offers Engineering courses","The college is very near to Banashankari","My creators must work on making me more efficient with information. LOL."
+       ]
+      },
+      {"tag":"branch",
+        "patterns":["What are the branches available","Branches","What can I study","What all branches are available","What to study","Some branches","Courses","Courses offered in DSCE"],
+        "responses":["I know only some CSE,ME,ISE,Civil. Contact their website dsce.edu.in for more info"]
+      },
+      {"tag":"Anythin_else",
+        "patterns":["Anything else","Any More information","What else do you know","More information","Know more"],
+        "responses":["Visit dsce.edu.in for more info","My creators are working on me","Only this much for now. Hope I was useful","LOL, this is just a mini project. So I dont know more"]
+      },
+      {
+        "tag":"joke",
+        "patterns":["Tell me a joke","Tell a joke","A joke","Can you tell a comedy","Do you know any comedy","Do you know a joke","One more joke please"],
+        "responses":["I failed math so many times at school, I can’t even count","I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.","Two fish are in a tank. One says", "How do you drive this thing?","Just got fired from my job as a set designer. I left without making a scene.","Well, to be Frank with you, I’d have to change my name."]
+      },
+      {
+        "tag":"location",
+        "patterns":["Where is Dayananda Sagar Located","Where is DSCE located","Where is DSCE","Where is your college","Where does your creator's study"],
+        "responses":["Near Kumara Swamy Layout","Very near to Banashankari you know","Check on Google map","My friend Google has all answers for you, ask Her. LOL"]
+      },
+      {
+        "tag":"abt_creators",
+        "patterns":["Tell me about you parents","Tell me about your creators","Anything about creators","Your creators facts","Anything about your parents"],
+        "responses":["One of my creator Shashank is a naughty fellow. LOL","I love my parent Nikhil more than other two","Darshan is sielent but dangerous. Hahahaha","Let me tell you a comedy. My creator Shashank is called as Shaaa","Shashank is naughtiest of DSCE"]
+      }
+  ]
+}
